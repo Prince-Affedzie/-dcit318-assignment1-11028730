@@ -19,7 +19,7 @@ namespace GradeCalculator
                     {
                         if (grade < 0 || grade > 100)
                         {
-                            Console.WriteLine("Grade must be between 0 and 100.\n");
+                            Console.WriteLine(" Grade must be between 0 and 100.\n");
                             continue;
                         }
 
@@ -42,7 +42,7 @@ namespace GradeCalculator
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($" An error occurred: {ex.Message}\n");
+                    Console.WriteLine($"An error occurred: {ex.Message}\n");
                 }
             }
         }
